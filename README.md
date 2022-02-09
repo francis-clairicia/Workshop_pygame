@@ -108,7 +108,7 @@ def main():
 Si vous lancez le programme vous aurez une jolie fenêtre noire ! (Faites Ctrl+C dans le terminal pour l'arrêter)
 
 ### Les évenements
-C'est cool on a une fenêtre, maintenant ce serait de pouvoir _au moins_ fermer la fenêtre :)
+C'est cool on a une fenêtre, maintenant ce serait bien de pouvoir _au moins_ fermer la fenêtre :)
 
 C'est là qu'intervient le module `pygame.event`. On va le solliciter dans notre `while` pour arrêter la boucle normalement.
 ```py
