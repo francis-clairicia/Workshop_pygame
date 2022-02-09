@@ -74,7 +74,7 @@ pygame.init()
 ```
 Afin de notamment initialiser la SDL.
 
-Ensuite on va créer un fenêtre de taille 800x600
+Ensuite on va créer un fenêtre de taille 640x480
 ```py
 screen_size = (640, 480)
 window = pygame.display.set_mode(screen_size)
