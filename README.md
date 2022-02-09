@@ -210,9 +210,9 @@ C'est normal ! Par défaut, une `Surface` ne connaît pas le transparent, à moi
 ## Les animations
 
 ### La framerate
-Là notre `while looping` essaoie d'aller aussi vite que ce que votre PC peut permettre. Plus énergivore tu meurs. Du coup on va demander à ce qu'elle soit exécuté un certain nombre de fois par seconde. On appelle ça une `framerate`.
+Là notre `while looping` essaie d'aller aussi vite que ce que votre PC peut permettre. Plus énergivore tu meurs. Du coup on va demander à ce qu'elle soit exécutée un certain nombre de fois par seconde. On appelle ça une `framerate`.
 
-Petit point vocabulaire: Une `frame` est l'exécution de notre boucle principalement sur __une__ boucle. Par exemple un framerate de 60fps signifie qu'on a 60 frames par secondes, donc 60 tours de boucle par secondes.
+Petit point vocabulaire: Une `frame` est l'exécution de notre boucle principale sur __une__ boucle. Par exemple un framerate de 60fps signifie qu'on a 60 frames par secondes, donc 60 tours de boucle par secondes.
 
 ```py
 def main():
