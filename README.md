@@ -242,7 +242,7 @@ def main():
 ```
 > Comment `clock` permet ça ?
 
-Déjà avant toute chose, `frame` et `tick`, c'est la même chose. Ensuite, pour répondre à la question, `clock` va calculer le temps que devriat faire un `tick` (donc une `frame` en somme), et si on est arrivé un peu trop tôt, il attend. Purement et simplement.
+Déjà avant toute chose, `frame` et `tick`, c'est la même chose. Ensuite, pour répondre à la question, `clock` va calculer le temps que devrait faire un `tick` (donc une `frame` en somme), et si on est arrivé un peu trop tôt, il attend. Purement et simplement.
 
 ## Déplacer notre `perso`
 
