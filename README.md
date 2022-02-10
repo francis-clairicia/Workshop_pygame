@@ -199,7 +199,7 @@ while looping:
     window.blit(background, (background_x, background_y))
     pygame.display.flip()
 ```
-On demande de _coller_ `background` à notre background (tel un post-it) à la position donnée. La position correspond au point en haut à gauche de l'image.
+On demande de _coller_ `background` à notre window (tel un post-it) à la position donnée. La position correspond au point en haut à gauche de l'image.
 
 Essayez de mettre notre `perso.png` à la position `(200, 300)` maintenant !
 
